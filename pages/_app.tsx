@@ -42,11 +42,20 @@ export default function App({ Component, pageProps, router }: AppProps) {
   return (
     <AppLayout>
       <Head>
-        <title>Spencer and Williams</title>
-        <meta
+        <title>Autic - Nền tảng công nghệ &amp; đào tạo kinh doanh du lịch |</title>
+        {/* <meta
           name="viewport"
           content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover"
-        />
+        /> */}
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="shortcut icon" href="https://www.autic.vn/sites/default/files/favicon.png" type="image/png"/>
+        <meta name="generator" content="Drupal 7 (https://www.drupal.org)"/>
+        <link rel="canonical" href="https://www.autic.vn/"/>
+        <link rel="shortlink" href="https://www.autic.vn/"/>
+        <meta property="og:site_name" content="Autic - Nền tảng công nghệ &amp; đào tạo kinh doanh du lịch"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://www.autic.vn/"/>
+        <meta property="og:title" content="Autic - Nền tảng công nghệ &amp; đào tạo kinh doanh du lịch"/>
       </Head>
 
       {/* Google Analytics */}
